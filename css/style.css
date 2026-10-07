@@ -41,6 +41,19 @@ section h3 {
     font-size: 12px;
     padding: 5px 8px !important;
 }
+/*On surcharge la classe couleur du badge de boostrap */
+.badge.text-bg-dark {
+    background-color: #DBCCDE !important;
+    color: #263238 !important;
+}
+
+#competences .badge {
+    background-color: #DBCCDE !important;
+}
+
+#interets .badge {
+    background-color: #DBCCDE !important;
+}
 
 /*Zone photo et image*/
 .photo{    
@@ -108,9 +121,9 @@ a:hover {
 }
 /*Bouton pour afficher le contact*/
 .bouton-contact {
-    border: 1px solid #263238;
-    background: white;
-    color: #263238;
+    border: 1px solid #DBCCDE;
+    background: #DBCCDE;
+    color: white;
     padding: 10px 18px;
     border-radius: 25px;
     font-family: inherit;
@@ -122,8 +135,8 @@ a:hover {
 
 .bouton-contact:hover,
 .bouton-contact.actif {
-    background: #263238;
-    color: white;
+    background: #DBCCDE;
+    color: #263238;
 }
 
 /*Classe pour affichage de petits icônes*/
@@ -155,8 +168,8 @@ Partie utilisée par le javascript ne pas supprimer
     gap: 10px;
 }
 .element {
-    background: white;/* #263238;*/
-    color: grey;
+    background: #DBCCDE;
+    color: #263238;
     padding: 5px 10px;
     border-radius: 15px;
     font-size: 14px;
@@ -176,7 +189,7 @@ Pour le menu dynamique en haut
 .panneau-menu.actif {
     display: block;
 }
-
+/*
 .navigation {
     display: flex;
     justify-content: center;
@@ -213,6 +226,21 @@ Pour le menu dynamique en haut
 .navigation button.actif {
     background: #DBCCDE;
     color: white;
+}*/
+
+/*Surcharge bootstrap pour mes couleurs */
+.navigation .nav-link {
+    color: #263238;
+}
+
+.navigation .nav-link:hover {
+    background-color: #DBCCDE;
+    color: #263238;
+}
+
+.navigation .nav-link.actif {
+    background-color: #DBCCDE;
+    color: #263238;
 }
 
 /*Affichage des dates*/

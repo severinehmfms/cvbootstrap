@@ -138,7 +138,7 @@ function afficheCompetences(skills) {
         );
         element.innerHTML = `
             <strong>${skill.name}</strong>
-            <span class="badge text-bg-secondary">${skill.level}</span>
+            <span class="badge text-bg-dark">${skill.level}</span>
         `;
 
         container.appendChild(element);
@@ -276,7 +276,7 @@ function afficheInterets(interets){
 
         element.classList.add(
             "badge",
-            "text-bg-secondary",
+            "text-bg-dark",
             "p-2"
         );
 
