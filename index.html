@@ -1,0 +1,115 @@
+<html>
+<head>
+    <title>CV - Séverine HM</title>
+
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <header class="container my-4">
+        <div class="row align-items-center">
+            <div class="col-md-3">
+                <div class = "photo">
+                    <img src="img/image.webp"/>
+                </div>
+            </div>
+        
+            <div class="col-md-9">  
+                <div class="identite">
+                    <div>
+                        <h1 id="nom"></h1>
+                        <p id="titre"></p>
+                    </div>                        
+                    <button class="bouton-contact" data-cible="contact">
+                        ✉ Me contacter
+                    </button>
+                </div>
+                
+                <div id="contact" class="contact panneau-menu">
+                    <div class="contact-infos">
+                        <p id="email"></p>
+                        <p id="phone"></p>
+                        <p id="ville"></p>
+                    </div>
+                </div>
+
+                <nav class="navigation">
+                    <button data-cible="section-description" class="actif">Présentation</button>
+                    <button data-cible="section-experiences">Expériences</button>
+                    <button data-cible="section-formations">Formations</button>
+                    <button data-cible="section-projets">Projets</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-4">
+
+        <div class="row">
+
+            <aside class="col-md-3">           
+                <section id="section-competences" class="bg-light p-3 mb-4 rounded shadow-sm">
+                    <h2>
+                        Compétences
+                        <span id="bouton-competences" class="btn btn-outline-dark btn-sm">-</span>
+                    </h2>
+                    <div id="competences" class="visible"></div>
+                </section>
+                <section id="section-langues" class="bg-light p-3 mb-4 rounded shadow-sm">
+                    <h2>
+                        Langues
+                        <span id="bouton-langues" class="btn btn-outline-dark btn-sm">-</span>
+                    </h2>
+                    <div id="langues" class="visible"></div>
+                </section>
+                <section id="section-interets" class="bg-light p-3 mb-4 rounded shadow-sm">
+                    <h2>
+                        Centres d'intérêts
+                        <span id="bouton-interets" class="btn btn-outline-dark btn-sm">-</span>
+                    </h2>
+                    <div id="interets" class="visible d-flex flex-wrap gap-2"></div>
+                </section>    
+            </aside>       
+
+            <div class="col-md-9">
+                <section id="section-description" class="bg-light p-3 mb-4 rounded shadow-sm panneau-menu panneau-menu-min actif">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2>Présentation</h2>
+                    </div>
+                    <div id="description"></div>
+                </section>
+
+                <section id="section-experiences" class="bg-light p-3 mb-4 rounded shadow-sm panneau-menu panneau-menu-min">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2>Expériences</h2>
+                    </div>
+                    <div id="experiences"></div>
+                </section>
+
+                <section id="section-formations" class="bg-light p-3 mb-4 rounded shadow-sm panneau-menu panneau-menu-min">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2>Formations</h2>
+                    </div>
+                    <div id="formations"></div>            
+                </section>            
+                
+                <section id="section-projets" class="bg-light p-3 mb-4 rounded shadow-sm panneau-menu panneau-menu-min">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h2>Projets</h2>
+                    </div>                
+                    <div id="projets"></div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Séverine HM</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
