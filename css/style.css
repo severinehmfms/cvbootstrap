@@ -189,44 +189,6 @@ Pour le menu dynamique en haut
 .panneau-menu.actif {
     display: block;
 }
-/*
-.navigation {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-
-    margin-top: 20px;
-    padding-top: 12px;
-
-    border-top: 1px solid #ddd;
-}
-
-.navigation button {
-    border: none;
-    background: transparent;
-
-    padding: 8px 15px;
-
-    font-family: inherit;
-    font-size: 15px;
-
-    cursor: pointer;
-
-    color: #263238;
-    border-radius: 20px;
-
-    transition: 0.2s;
-}
-
-.navigation button:hover {
-    background: #DBCCDE;
-    color: white;
-}
-
-.navigation button.actif {
-    background: #DBCCDE;
-    color: white;
-}*/
 
 /*Surcharge bootstrap pour mes couleurs */
 .navigation .nav-link {
